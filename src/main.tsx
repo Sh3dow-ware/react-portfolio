@@ -8,8 +8,8 @@ createRoot(document.getElementById('root')!).render(
   <StrictMode>
       <BrowserRouter>
           <Routes>
-              <Route path="react-portfolio/" element={<Home/>}></Route>
-              <Route path="react-portfolio/details" element={<Details/>}></Route>
+              <Route path="/" element={<Home/>}></Route>
+              <Route path="/details" element={<Details/>}></Route>
           </Routes>
       </BrowserRouter>
   </StrictMode>,
