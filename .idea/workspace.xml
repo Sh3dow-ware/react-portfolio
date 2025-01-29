@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd0a7f1e-d32d-4751-bdd5-6efed6879d55" name="Changes" comment="Changed vite.config" />
+    <list default="true" id="dd0a7f1e-d32d-4751-bdd5-6efed6879d55" name="Changes" comment="Added files" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -178,7 +178,31 @@
       <option name="project" value="LOCAL" />
       <updated>1738155259850</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Changed vite.config">
+      <option name="closed" value="true" />
+      <created>1738155497116</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1738155497116</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Changed vite.config">
+      <option name="closed" value="true" />
+      <created>1738155553058</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1738155553058</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added files">
+      <option name="closed" value="true" />
+      <created>1738155762751</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1738155762751</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,10 +220,10 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added files" />
     <MESSAGE value="Added workspace.xml" />
     <MESSAGE value="updated vite.config.ts" />
     <MESSAGE value="Changed vite.config" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed vite.config" />
+    <MESSAGE value="Added files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added files" />
   </component>
 </project>
