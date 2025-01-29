@@ -1,0 +1,56 @@
+@use "../variables" as config;
+
+.TechnologyCard {
+  background: linear-gradient(#ffffff, #4facf1);
+}
+
+.header-container {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+.title {
+  font-family: config.$UbuntuFont;
+  text-align: center;
+  background-color: black;
+  color: white;
+  max-width: 600px;
+  padding: 10px;
+  border-radius: 10px;
+}
+}
+.cards-container {
+  font-family: config.$UbuntuFont;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  column-gap: 100px;
+  row-gap: 20px;
+  align-items: center;
+  align-content: space-around;
+  text-align: center;
+  height: max-content;
+  padding: 30px;
+
+  .card {
+    background-color: #234994;
+    color: white;
+    border: #00134b solid 5px;
+    padding: 20px;
+    height: max-content;
+    width: 100%;
+    max-height: 350px;
+    max-width: 500px;
+    border-radius: 10px;
+
+    transition: 250ms ease-in-out ;
+  }
+
+  .card:hover {
+    background-color: #001f5d;
+    scale: (1.125);
+    z-index: 2;
+  }
+  .card:not(:hover) {
+    scale: (1);
+    z-index: 1;
+  }
+}

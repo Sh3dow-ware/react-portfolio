@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd0a7f1e-d32d-4751-bdd5-6efed6879d55" name="Changes" comment="Added files" />
+    <list default="true" id="dd0a7f1e-d32d-4751-bdd5-6efed6879d55" name="Changes" comment="minor changes">
+      <change afterPath="$PROJECT_DIR$/src/component/TechnologyCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/component/TechnologyCard.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utility/LanguageCardImageData.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/component/MainContent.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/component/MainContent.scss" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,6 +58,9 @@
     &quot;accountId&quot;: &quot;1fcf1cc5-e7a3-45f6-9aea-10ee6e501fab&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -129,6 +141,7 @@
       <workItem from="1738136376863" duration="3232000" />
       <workItem from="1738139642329" duration="739000" />
       <workItem from="1738140400645" duration="5205000" />
+      <workItem from="1738184013651" duration="5506000" />
     </task>
     <task id="LOCAL-00001" summary="Added files">
       <option name="closed" value="true" />
@@ -202,7 +215,39 @@
       <option name="project" value="LOCAL" />
       <updated>1738155762751</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Edited README.md">
+      <option name="closed" value="true" />
+      <created>1738155986847</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1738155986847</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Changed title and removed vite link">
+      <option name="closed" value="true" />
+      <created>1738156774081</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1738156774081</updated>
+    </task>
+    <task id="LOCAL-00012" summary="background image style">
+      <option name="closed" value="true" />
+      <created>1738157094883</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1738157094883</updated>
+    </task>
+    <task id="LOCAL-00013" summary="minor changes">
+      <option name="closed" value="true" />
+      <created>1738157684741</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1738157684741</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,6 +269,10 @@
     <MESSAGE value="updated vite.config.ts" />
     <MESSAGE value="Changed vite.config" />
     <MESSAGE value="Added files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added files" />
+    <MESSAGE value="Edited README.md" />
+    <MESSAGE value="Changed title and removed vite link" />
+    <MESSAGE value="background image style" />
+    <MESSAGE value="minor changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor changes" />
   </component>
 </project>
