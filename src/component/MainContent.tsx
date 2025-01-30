@@ -5,7 +5,7 @@ export const MainContent = () => {
         <main className="main-content">
             <section className="main-content__section">
                 <h2 className="main-content__title">Hey, it's me <span className="main-content__highlight">Magnus</span></h2>
-                <p className="main-content__description">I am a passionate developer.</p>
+                <p className="main-content__description"><span className="main-content__passionate">I am a passionate</span> <span className="main-content__developertag">developer</span></p>
             </section>
         </main>
     );
