@@ -8,15 +8,42 @@
   display: flex;
   justify-content: center;
   padding: 10px;
-.title {
-  font-family: config.$UbuntuFont;
-  text-align: center;
   background-color: black;
-  color: white;
-  max-width: 600px;
-  padding: 10px;
-  border-radius: 10px;
-}
+  .title {
+    font-family: config.$UbuntuFont;
+    text-align: center;
+    background-color: black;
+    color: white;
+    max-width: 600px;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    background-image: linear-gradient(
+                    to right,
+                    white 20%,
+                    red 40%,
+                    #ff0000 60%,
+                    red 80%,
+                    white 100%
+    );
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 10s linear infinite;
+  }
+
+  @keyframes shine {
+    0% {
+      background-position: 200% center;
+    }
+    100% {
+      background-position: -200% center;
+    }
+  }
+
 }
 .cards-container {
   font-family: config.$UbuntuFont;
