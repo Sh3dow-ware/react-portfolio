@@ -16,7 +16,28 @@
 
   &__highlight {
     color: #f39c12;
+    transition: 500ms;
   }
+
+  &__highlight:hover {
+    font-size: 80px;
+    -webkit-text-stroke: 5px #f39c12;
+    paint-order: stroke fill;
+    color: #fff;
+  }
+  &__developertag {
+    font-size: 40px;
+    background-color: #f39c12;
+    border-radius: 10px;
+    text-transform: uppercase;
+    color: #070707;
+    transition: 500ms;
+  }
+
+  &__developertag:hover {
+   background-color: #0c63ed;
+  }
+
 
   &__title, &__description {
     color: #ffffff;
@@ -29,13 +50,21 @@
     padding: 10px;
     border-radius: 10px;
   }
+  &__passionate {
+    background-color: #020202;
+    padding: 5px;
+  }
 
   &__description {
     font-size: 1.2rem;
-    background-color: black;
+    background-color: white;
     padding: 5px;
     border-radius: 10px;
     filter: invert(1);
     border: #ffffff solid 5px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    align-items: center;
   }
 }
