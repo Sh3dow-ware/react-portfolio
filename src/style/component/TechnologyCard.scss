@@ -1,14 +1,11 @@
 @use "../variables" as config;
 
-.TechnologyCard {
-  background: linear-gradient(#ffffff, #4facf1);
-}
 
 .header-container {
   display: flex;
   justify-content: center;
   padding: 10px;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.5);
   .title {
     font-family: config.$UbuntuFont;
     text-align: center;
