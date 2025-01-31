@@ -1,10 +1,13 @@
 import React from "react";
 import { Link } from "react-router";
-import "../style/component/navigation.scss";
+import "../style/component/Navigation.scss";
+import {themeData} from "../utility/ThemeData.tsx";
 
 export const NavigationHeader = () => {
     const [toggleTheme, setTheme] = React.useState<boolean>(false);
+    const IconComponent = themeData[toggleTheme ? "Dark" : "Light"];
 
+    document.body.setAttribute("data-theme", toggleTheme ? "dark" : "light");
     return (
         <header className="nav-header">
             <nav className="nav-header__container">
@@ -21,9 +24,9 @@ export const NavigationHeader = () => {
                 </ul>
                 <button
                     className="nav-header__toggle"
-                    onClick={() => setTheme(!toggleTheme)}
-                >
-                    {toggleTheme ? "Dark" : "Light"}
+                    onClick={() => setTheme(!toggleTheme)}>
+                    {toggleTheme ? "Dark" : "Light "}
+                    <IconComponent />
                 </button>
             </nav>
         </header>
