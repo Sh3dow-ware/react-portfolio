@@ -4,11 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd0a7f1e-d32d-4751-bdd5-6efed6879d55" name="Changes" comment="minor changes">
+    <list default="true" id="dd0a7f1e-d32d-4751-bdd5-6efed6879d55" name="Changes" comment="Added export variable of the Icons, urls etc.">
+      <change afterPath="$PROJECT_DIR$/Server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types/OnlineStatus.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utility/ThemeData.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/MainContent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/MainContent.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/NavigationHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/NavigationHeader.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/TechnologyCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/TechnologyCard.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style/component/MainContent.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/component/MainContent.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style/component/TechnologyCard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/component/TechnologyCard.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/component/navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/component/Navigation.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +27,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="TypeScript JSX File" />
         <option value="SCSS File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -67,28 +77,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ReactCreateComponentLastSelected&quot;: &quot;arrowFunctionComponent&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/U2486896/Downloads/workspace/react-portfolio&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
-    &quot;npm.npm dev.executor&quot;: &quot;Run&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;web-ide.project.structure&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\U2486896\\Downloads\\workspace\\react-portfolio\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Node.js.Server.ts.executor": "Run",
+    "ReactCreateComponentLastSelected": "arrowFunctionComponent",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/U2486896/Downloads/workspace/react-portfolio",
+    "list.type.of.created.stylesheet": "SCSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "npm",
+    "npm.build:dev.executor": "Run",
+    "npm.build:prod.executor": "Run",
+    "npm.dev.executor": "Run",
+    "npm.npm dev.executor": "Run",
+    "settings.editor.selected.configurable": "web-ide.project.structure",
+    "ts.external.directory.path": "C:\\Users\\U2486896\\Downloads\\workspace\\react-portfolio\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -104,7 +117,30 @@
       <recent name="C:\Users\U2486896\Downloads\workspace\renewedportfolio\src\style\component" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.npm dev">
+    <configuration name="Server.ts" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Server.ts" typescript-loader="bundled" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="build:dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/node_modules/typewriter-effect/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build:dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="build:prod" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/node_modules/typewriter-effect/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build:prod" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="npm dev" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -115,6 +151,13 @@
       <envs />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build:dev" />
+        <item itemvalue="npm.build:prod" />
+        <item itemvalue="Node.js.Server.ts" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -139,7 +182,8 @@
       <workItem from="1738139642329" duration="739000" />
       <workItem from="1738140400645" duration="5205000" />
       <workItem from="1738184013651" duration="5724000" />
-      <workItem from="1738218135291" duration="4463000" />
+      <workItem from="1738218135291" duration="20818000" />
+      <workItem from="1738308498211" duration="17307000" />
     </task>
     <task id="LOCAL-00001" summary="Added files">
       <option name="closed" value="true" />
@@ -253,7 +297,103 @@
       <option name="project" value="LOCAL" />
       <updated>1738189638968</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Added scrollbar">
+      <option name="closed" value="true" />
+      <created>1738222838043</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1738222838043</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Added more style">
+      <option name="closed" value="true" />
+      <created>1738222868915</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1738222868915</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Added new classes">
+      <option name="closed" value="true" />
+      <created>1738222880491</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1738222880491</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Title animation">
+      <option name="closed" value="true" />
+      <created>1738222912026</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1738222912026</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Updated workspace.xml">
+      <option name="closed" value="true" />
+      <created>1738222923078</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1738222923078</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Updated .gitignore to include .env">
+      <option name="closed" value="true" />
+      <created>1738330469359</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1738330469359</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Added scss variables">
+      <option name="closed" value="true" />
+      <created>1738330574555</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1738330574555</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Added data-theme.scss to include dark mode &amp; light mode">
+      <option name="closed" value="true" />
+      <created>1738330602336</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1738330602336</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Added FocusBlurFooter.tsx(will be renamed in future)">
+      <option name="closed" value="true" />
+      <created>1738330646993</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1738330646993</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Added Footer.scss to include styling for the footer component, name will be changed to reflect it's purpose">
+      <option name="closed" value="true" />
+      <created>1738330689539</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1738330689539</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Added FocusBlurFooter, renaming under construction.">
+      <option name="closed" value="true" />
+      <created>1738330743961</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1738330743961</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Added export variable of the Icons, urls etc.">
+      <option name="closed" value="true" />
+      <created>1738330781252</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1738330781252</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,6 +419,18 @@
     <MESSAGE value="Changed title and removed vite link" />
     <MESSAGE value="background image style" />
     <MESSAGE value="minor changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="minor changes" />
+    <MESSAGE value="Added scrollbar" />
+    <MESSAGE value="Added more style" />
+    <MESSAGE value="Added new classes" />
+    <MESSAGE value="Title animation" />
+    <MESSAGE value="Updated workspace.xml" />
+    <MESSAGE value="Updated .gitignore to include .env" />
+    <MESSAGE value="Added scss variables" />
+    <MESSAGE value="Added data-theme.scss to include dark mode &amp; light mode" />
+    <MESSAGE value="Added FocusBlurFooter.tsx(will be renamed in future)" />
+    <MESSAGE value="Added Footer.scss to include styling for the footer component, name will be changed to reflect it's purpose" />
+    <MESSAGE value="Added FocusBlurFooter, renaming under construction." />
+    <MESSAGE value="Added export variable of the Icons, urls etc." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added export variable of the Icons, urls etc." />
   </component>
 </project>
