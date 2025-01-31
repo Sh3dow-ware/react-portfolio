@@ -10,7 +10,6 @@
     justify-content: center;
     width: 100%;
     height: 400px;
-    border-bottom: black solid 20px;
     background-image: url('../../images/main.jpg');
   }
 
@@ -28,25 +27,30 @@
   &__developertag {
     font-size: 40px;
     background-color: #f39c12;
+    padding: .5rem;
     border-radius: 10px;
-    text-transform: uppercase;
-    color: #070707;
-    transition: 500ms;
-  }
-
-  &__developertag:hover {
-   background-color: #0c63ed;
-  }
-
-
-  &__title, &__description {
     color: #ffffff;
+  }
+
+  &__developertag--blue {
+    font-size: 40px;
+    background-color: #f39c12;
+    padding: .5rem;
+    border-radius: 10px;
+    color: #4960ff;
+  }
+
+  &__title {
+    color: #000000;
+  }
+  &__description {
+    color: white;
   }
 
   &__title {
     font-size: 3.5rem;
     font-weight: bold;
-    background-color: black;
+    background-color: #ffffff;
     padding: 10px;
     border-radius: 10px;
   }
@@ -60,7 +64,6 @@
     background-color: white;
     padding: 5px;
     border-radius: 10px;
-    filter: invert(1);
     border: #ffffff solid 5px;
     display: flex;
     flex-wrap: wrap;
