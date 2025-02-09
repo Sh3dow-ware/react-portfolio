@@ -5,6 +5,9 @@
   display: flex;
   justify-content: center;
   padding: 10px;
+  max-width: 90%;
+  justify-self: center;
+  border-radius: 20px;
   background-color: rgba(0, 0, 0, 0.5);
   .title {
     font-family: config.$UbuntuFont;
