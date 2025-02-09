@@ -1,9 +1,11 @@
+import {NavigationHeader} from "../component/NavigationHeader.tsx";
+import {GalleryComponent} from "../component/GalleryComponent.tsx";
+
 const Details = () => {
     return (
         <>
-            <div>
-                Hello World!
-            </div>
+           <NavigationHeader/>
+            <GalleryComponent/>
         </>
     );
 };
