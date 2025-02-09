@@ -30,7 +30,7 @@ export const WindowFocusHandler = (user: UserProfileProps) => {
         };
 
         fetchUserDetails();
-        const interval = setInterval(fetchUserDetails, 30000); // Poll every 30 seconds
+        const interval = setInterval(fetchUserDetails, 30000);
 
         return () => clearInterval(interval);
     }, []);
