@@ -1,31 +1,47 @@
 import React from "react";
 import { Link } from "react-router";
 import "../style/component/Navigation.scss";
-import {themeData} from "../utility/ThemeData.tsx";
+import { getThemeData } from "../utility/ThemeData";
+import { GetLocalStorage, SetLocalStorage } from "../utility/LocalStorage";
 
 export const NavigationHeader = () => {
-    const [toggleTheme, setTheme] = React.useState<boolean>(false);
-    const IconComponent = themeData[toggleTheme ? "Dark" : "Light"];
+    // Variables, states, storage.
+    const storedTheme = GetLocalStorage({name: "data-theme"}) || "light";
+    const currentThemeKey = storedTheme === "dark" ? "Dark" : "Light";
+    const { type: IconComponent } = getThemeData(currentThemeKey);
+    const [isDarkMode, setIsDarkMode] = React.useState(storedTheme === "dark");
 
-    document.body.setAttribute("data-theme", toggleTheme ? "dark" : "light");
+    const handleThemeToggle = () => {
+        const newTheme = isDarkMode ? "light" : "dark";
+        SetLocalStorage({ name: "data-theme", value: newTheme });
+        setIsDarkMode(!isDarkMode);
+        document.body.setAttribute("data-theme", newTheme);
+    };
+
+    React.useEffect(() => {
+        const stored = GetLocalStorage({name: "data-theme"}) || "light";
+        document.body.setAttribute("data-theme", stored);
+    }, []);
+
     return (
         <header className="nav-header">
             <nav className="nav-header__container">
                 <ul className="nav-header__list">
                     <li className="nav-header__item">
-                        <Link className="nav-header__link" to={"/"}>Portfolio</Link>
+                        <Link className="nav-header__link" to="/">Portfolio</Link>
                     </li>
                     <li className="nav-header__item">
-                        <Link className="nav-header__link" to={"/projects"}>Projects</Link>
+                        <Link className="nav-header__link" to="/projects">Projects</Link>
                     </li>
                     <li className="nav-header__item">
-                        <Link className="nav-header__link" to={"/contact"}>Contact</Link>
+                        <Link className="nav-header__link" to="/contact">Contact</Link>
                     </li>
                 </ul>
                 <button
                     className="nav-header__toggle"
-                    onClick={() => setTheme(!toggleTheme)}>
-                    {toggleTheme ? "Dark" : "Light "}
+                    onClick={handleThemeToggle}
+                >
+                    {isDarkMode ? "Dark" : "Light"}
                     <IconComponent />
                 </button>
             </nav>
