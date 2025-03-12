@@ -1,9 +1,8 @@
 @use '../variables' as config;
 
 .main-content {
-  margin-bottom: 20px;
   &__section {
-    font-family: config.$UbuntuFont;
+    font-family: 'Monaspace Krypton', monospace;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,30 +14,22 @@
   }
 
   &__highlight {
-    color: #f39c12;
+    color: config.$ColorOrange;
     transition: 500ms;
   }
 
   &__highlight:hover {
     font-size: 80px;
-    -webkit-text-stroke: 5px #f39c12;
+    -webkit-text-stroke: 5px config.$ColorOrange;
     paint-order: stroke fill;
     color: #fff;
   }
   &__developertag {
     font-size: 40px;
-    background-color: #f39c12;
+    background-color: config.$ColorOrange;
     padding: .5rem;
     border-radius: 10px;
     color: #ffffff;
-  }
-
-  &__developertag--blue {
-    font-size: 40px;
-    background-color: #f39c12;
-    padding: .5rem;
-    border-radius: 10px;
-    color: #4960ff;
   }
 
   &__title {
@@ -70,5 +61,19 @@
     flex-wrap: wrap;
     column-gap: 10px;
     align-items: center;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .main-content {
+    &__title {
+      font-size: 1.5rem;
+    }
+    &__highlight:hover, &__highlight:active {
+      font-size: 1.5rem;
+    }
+    &__developertag {
+      font-size: 1.025rem;
+    }
   }
 }

@@ -1,0 +1,37 @@
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(0deg, rgba(2, 2, 2, 0.65), rgba(185, 185, 185, 0.78)), url("../../images/minimalisticbackground.jpg");
+  padding: 20px;
+  &__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba( 172, 172, 172, 0.15 );
+    backdrop-filter: blur( 6.5px );
+    -webkit-backdrop-filter: blur( 6.5px );
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 16px;
+    max-width: 100%;
+  }
+  &__title {
+    font-weight: bold;
+    font-size:x-large;
+    margin-top: 10px;
+    color: white;
+  }
+  &__img {
+    width: 260px;
+    cursor: pointer;
+    transition: 1.2s;
+    filter: grayscale(1);
+  }
+  &__img:hover, &__img:active {
+    scale: 1.0825;
+    filter: grayscale(0);
+  }
+}

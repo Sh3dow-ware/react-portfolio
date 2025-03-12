@@ -10,6 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fontsource/monaspace-krypton": "^5.2.5",
+    "@tanstack/react-router": "^1.114.4",
     "cors": "^2.8.5",
     "discord.js": "^14.17.3",
     "dotenv": "^16.4.7",
@@ -25,6 +27,8 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.17.0",
+    "@tanstack/router-devtools": "^1.114.4",
+    "@tanstack/router-plugin": "^1.114.4",
     "@types/react": "^18.3.18",
     "@types/react-dom": "^18.3.5",
     "@vitejs/plugin-react": "^4.3.4",
@@ -34,6 +38,7 @@
     "globals": "^15.14.0",
     "typescript": "~5.6.2",
     "typescript-eslint": "^8.18.2",
-    "vite": "^6.0.5"
+    "vite": "^6.0.5",
+    "vite-tsconfig-paths": "^5.1.4"
   }
 }

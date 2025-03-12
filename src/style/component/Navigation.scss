@@ -1,12 +1,12 @@
 .nav-header {
   background-color: transparent;
   padding: 1rem;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Monaspace Krypton', monospace;
 
   &__container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center;;
   }
 
   &__list {
@@ -28,6 +28,15 @@
     }
   }
 
+  &__menu {
+    display: none;
+    transition: 0.5s;
+
+    &:hover {
+      color: #f39c12;
+    }
+  }
+
   &__toggle {
     background: #f39c12;
     display: flex;
@@ -40,9 +49,66 @@
     border-radius: 5px;
     cursor: pointer;
     transition: background 0.3s ease;
+    font-family: inherit;
 
     &:hover {
       background: #e67e22;
     }
   }
 }
+
+@media (max-width: 756px) {
+  .nav-header {
+    &__list {
+      display: none;
+    }
+
+    &__menu {
+      display: block;
+      font-size: 2em;
+      z-index: 3;
+    }
+
+    &__list.open {
+      display: flex;
+      position: fixed;
+      height: 100%;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      width: 100vw;
+      z-index: 2;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      animation: fadeIn 0.5s ease-in forwards;
+
+    }
+
+    &__link {
+      font-size: 2.5em;
+    }
+
+
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+        height: 0;
+        filter: blur(10px);
+      }
+      100% {
+        opacity: 1;
+        height: 100vh;
+        filter: blur(0px);
+      }
+    }
+  }
+}
+
+@media (min-width: 757px) {
+  .nav-header__list {
+    background: transparent;
+  }
+}
+

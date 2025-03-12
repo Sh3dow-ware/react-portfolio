@@ -12,7 +12,7 @@ export const dataIcons: { [key: string]: { Icon: IconType, url: string } } = {
     "HTML": {Icon: HTML_Logo, url: "https://developer.mozilla.org/en-US/docs/Web/HTML"},
     "Python": {Icon: Python_Logo, url: "https://www.python.org/"},
     "Lua": {Icon: Lua_Logo, url: "https://www.lua.org/"},
-    "React": {Icon: React_Logo, url: "https://reactjs.org/"},
+    "React": {Icon: React_Logo, url: "https://react.dev"},
     "JSON": {Icon: JSON_Logo, url: "https://www.json.org/json-en.html"},
     "Tailwind": {Icon: Tailwind_Logo, url: "https://tailwindcss.com/"},
     "Sql": {Icon: SQLite_Logo, url: "https://www.sqlite.org/"},

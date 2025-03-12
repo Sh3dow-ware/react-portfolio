@@ -4,11 +4,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd0a7f1e-d32d-4751-bdd5-6efed6879d55" name="Changes" comment="Added MainContent.scss">
+    <list default="true" id="dd0a7f1e-d32d-4751-bdd5-6efed6879d55" name="Changes" comment="Added essential files">
+      <change afterPath="$PROJECT_DIR$/src/component/SkillCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/minimalisticbackground.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/__root.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/contact.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/projects.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/component/SkillCard.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/component/TechnologyCard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/component/TechnologyCard.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/FocusBlurFooter.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/MainContent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/MainContent.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/NavigationHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/NavigationHeader.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/TechnologyCard.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/user.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Details.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/PageLoader.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/component/Footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/component/Footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/component/MainContent.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/component/MainContent.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/component/Navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/component/Navigation.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/component/TechnologyCard.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/fonts/_fonts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utility/LanguageCardImageData.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/utility/LanguageCardImageData.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.node.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +47,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript JSX File" />
-        <option value="SCSS File" />
         <option value="TypeScript File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -153,7 +181,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-WS-243.23654.157" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-WS-243.25659.40" />
       </set>
     </attachedChunks>
   </component>
@@ -178,15 +206,17 @@
       <workItem from="1738566214970" duration="138000" />
       <workItem from="1738567644951" duration="8966000" />
       <workItem from="1738931329611" duration="359000" />
-      <workItem from="1739083539581" duration="5741000" />
-    </task>
-    <task id="LOCAL-00001" summary="Added files">
-      <option name="closed" value="true" />
-      <created>1737984415331</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1737984415331</updated>
+      <workItem from="1739083539581" duration="5812000" />
+      <workItem from="1739095430905" duration="2125000" />
+      <workItem from="1739106173491" duration="329000" />
+      <workItem from="1739107369532" duration="1256000" />
+      <workItem from="1741592009510" duration="2043000" />
+      <workItem from="1741594078608" duration="798000" />
+      <workItem from="1741594889652" duration="659000" />
+      <workItem from="1741595599533" duration="4234000" />
+      <workItem from="1741606136584" duration="4496000" />
+      <workItem from="1741684526632" duration="4340000" />
+      <workItem from="1741762926276" duration="12185000" />
     </task>
     <task id="LOCAL-00002" summary="Added workspace.xml">
       <option name="closed" value="true" />
@@ -564,7 +594,23 @@
       <option name="project" value="LOCAL" />
       <updated>1739089507412</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Added border-radius + margin">
+      <option name="closed" value="true" />
+      <created>1739089574581</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1739089574581</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Added essential files">
+      <option name="closed" value="true" />
+      <created>1739089587034</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1739089587034</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -582,8 +628,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added FocusBlurFooter.tsx(will be renamed in future)" />
-    <MESSAGE value="Added Footer.scss to include styling for the footer component, name will be changed to reflect it's purpose" />
     <MESSAGE value="Added FocusBlurFooter, renaming under construction." />
     <MESSAGE value="Added export variable of the Icons, urls etc." />
     <MESSAGE value="main.scss is now utilizing data-theme" />
@@ -607,6 +651,8 @@
     <MESSAGE value="Added GalleryComponent.tsx" />
     <MESSAGE value="Added main.tsx routing will most likely change to tanstack router." />
     <MESSAGE value="Added MainContent.scss" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added MainContent.scss" />
+    <MESSAGE value="Added border-radius + margin" />
+    <MESSAGE value="Added essential files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added essential files" />
   </component>
 </project>
