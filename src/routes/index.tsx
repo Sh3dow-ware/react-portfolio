@@ -24,6 +24,7 @@ function Index() {
             <NavigationHeader></NavigationHeader>
             <MainContent></MainContent>
             <div className="skills">
+                <h2 className="skills-header__title">Expertise</h2>
                 {Object.entries(icons).map(([key, icon], index) => (
                     <SkillCard key={index} imgSrc={icon} title={key}/>
                 ))}

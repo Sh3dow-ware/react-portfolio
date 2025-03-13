@@ -5,38 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd0a7f1e-d32d-4751-bdd5-6efed6879d55" name="Changes" comment="Added essential files">
-      <change afterPath="$PROJECT_DIR$/src/component/SkillCard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/minimalisticbackground.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/__root.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/contact.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/projects.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/component/SkillCard.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/ProjectCards.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/component/ProjectCard.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/FocusBlurFooter.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/MainContent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/MainContent.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/NavigationHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/NavigationHeader.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/TechnologyCard.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/user.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Details.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/PageLoader.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/component/Footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/component/Footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/component/MainContent.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/component/MainContent.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/projects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/projects.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style/component/Navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/component/Navigation.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/component/TechnologyCard.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/fonts/_fonts.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utility/LanguageCardImageData.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/utility/LanguageCardImageData.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.app.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.node.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/component/SkillCard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/component/SkillCard.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -217,6 +195,9 @@
       <workItem from="1741606136584" duration="4496000" />
       <workItem from="1741684526632" duration="4340000" />
       <workItem from="1741762926276" duration="12185000" />
+      <workItem from="1741777829110" duration="2204000" />
+      <workItem from="1741850842414" duration="11000" />
+      <workItem from="1741851852691" duration="10425000" />
     </task>
     <task id="LOCAL-00002" summary="Added workspace.xml">
       <option name="closed" value="true" />

@@ -8,10 +8,10 @@ import { TiThMenu } from "react-icons/ti";
 export const NavigationHeader = () => {
     // Variables, states, storage.
     const storedTheme = GetLocalStorage({name: "data-theme"}) || "light";
-    const currentThemeKey = storedTheme === "dark" ? "Dark" : "Light";
+    const currentThemeKey = storedTheme === "dark" ? "Light" : "Dark";
     const { type: IconComponent } = getThemeData(currentThemeKey);
     const [isDarkMode, setIsDarkMode] = React.useState(storedTheme === "dark");
-    const [isMenuOpen, setIsMenuOpen] = React.useState(false);  // Updated to use React.useState
+    const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
     const handleThemeToggle = () => {
         const newTheme = isDarkMode ? "light" : "dark";
@@ -49,7 +49,7 @@ export const NavigationHeader = () => {
                     className="nav-header__toggle"
                     onClick={handleThemeToggle}
                 >
-                    {isDarkMode ? "Dark" : "Light"}
+                    {isDarkMode ? "Light" : "Dark"}
                     <IconComponent />
                 </button>
             </nav>
