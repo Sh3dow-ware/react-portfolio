@@ -1,11 +1,19 @@
+#root {
+  background: inherit;
+}
+
 .nav-header {
-  background-color: transparent;
+  background-color: inherit;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  filter: blur(0.25px);
   padding: 1rem;
   font-family: 'Monaspace Krypton', monospace;
 
   &__container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
     align-items: center;;
   }
 

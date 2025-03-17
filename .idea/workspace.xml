@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd0a7f1e-d32d-4751-bdd5-6efed6879d55" name="Changes" comment="Added essential files">
-      <change afterPath="$PROJECT_DIR$/src/component/ProjectCards.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/component/ProjectCard.scss" afterDir="false" />
+    <list default="true" id="dd0a7f1e-d32d-4751-bdd5-6efed6879d55" name="Changes" comment="added essential images">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/NavigationHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/NavigationHeader.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/__root.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/__root.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/projects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/projects.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style/component/Navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/component/Navigation.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/component/SkillCard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/component/SkillCard.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/component/ProjectCard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/component/ProjectCard.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +154,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-WS-243.25659.40" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-WS-243.26053.12" />
       </set>
     </attachedChunks>
   </component>
@@ -197,23 +192,11 @@
       <workItem from="1741762926276" duration="12185000" />
       <workItem from="1741777829110" duration="2204000" />
       <workItem from="1741850842414" duration="11000" />
-      <workItem from="1741851852691" duration="10425000" />
-    </task>
-    <task id="LOCAL-00002" summary="Added workspace.xml">
-      <option name="closed" value="true" />
-      <created>1738136674079</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1738136674079</updated>
-    </task>
-    <task id="LOCAL-00003" summary="updated vite.config.ts">
-      <option name="closed" value="true" />
-      <created>1738154862166</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1738154862166</updated>
+      <workItem from="1741851852691" duration="10568000" />
+      <workItem from="1741865260090" duration="4291000" />
+      <workItem from="1741944994166" duration="930000" />
+      <workItem from="1741946246989" duration="3147000" />
+      <workItem from="1741952403665" duration="2811000" />
     </task>
     <task id="LOCAL-00004" summary="Changed vite.config">
       <option name="closed" value="true" />
@@ -591,7 +574,23 @@
       <option name="project" value="LOCAL" />
       <updated>1739089587034</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Added essential files">
+      <option name="closed" value="true" />
+      <created>1741862480037</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1741862480037</updated>
+    </task>
+    <task id="LOCAL-00052" summary="added essential images">
+      <option name="closed" value="true" />
+      <created>1741862492436</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1741862492436</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -609,7 +608,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added FocusBlurFooter, renaming under construction." />
     <MESSAGE value="Added export variable of the Icons, urls etc." />
     <MESSAGE value="main.scss is now utilizing data-theme" />
     <MESSAGE value="MainContent.scss changed background for darkmode to work" />
@@ -634,6 +632,7 @@
     <MESSAGE value="Added MainContent.scss" />
     <MESSAGE value="Added border-radius + margin" />
     <MESSAGE value="Added essential files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added essential files" />
+    <MESSAGE value="added essential images" />
+    <option name="LAST_COMMIT_MESSAGE" value="added essential images" />
   </component>
 </project>

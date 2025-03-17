@@ -6,12 +6,13 @@ import {SkillCard} from "@component/SkillCard";
 import javascriptLogo from "../images/JS.svg";
 import typescriptLogo from "../images/TS.svg";
 import pythonLogo from "../images/PY.svg";
-
+import luaLogo from "../images/LUAU.svg";
 
 const icons = {
     "JavaScript": javascriptLogo,
     "TypeScript": typescriptLogo,
     "Python": pythonLogo,
+    "Lua": luaLogo,
 };
 
 export const Route = createFileRoute('/')({
