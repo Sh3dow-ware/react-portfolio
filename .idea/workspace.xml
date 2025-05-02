@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd0a7f1e-d32d-4751-bdd5-6efed6879d55" name="Changes" comment="Added workspace.xml">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/contact.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/contact.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="dd0a7f1e-d32d-4751-bdd5-6efed6879d55" name="Changes" comment="Added workspace.xml" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -197,31 +194,7 @@
       <workItem from="1742195004061" duration="108000" />
       <workItem from="1746167079198" duration="1050000" />
       <workItem from="1746172268854" duration="1574000" />
-      <workItem from="1746173935436" duration="1279000" />
-    </task>
-    <task id="LOCAL-00009" summary="Added files">
-      <option name="closed" value="true" />
-      <created>1738155762751</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1738155762751</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Edited README.md">
-      <option name="closed" value="true" />
-      <created>1738155986847</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1738155986847</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Changed title and removed vite link">
-      <option name="closed" value="true" />
-      <created>1738156774081</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1738156774081</updated>
+      <workItem from="1746173935436" duration="1585000" />
     </task>
     <task id="LOCAL-00012" summary="background image style">
       <option name="closed" value="true" />
@@ -591,7 +564,31 @@
       <option name="project" value="LOCAL" />
       <updated>1746173825434</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="Fixed contact.scss by checking clas in tsx">
+      <option name="closed" value="true" />
+      <created>1746175431777</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1746175431777</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Added contact.tsx fix by applying class to body and root.">
+      <option name="closed" value="true" />
+      <created>1746175449880</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1746175449880</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Added workspace.xml">
+      <option name="closed" value="true" />
+      <created>1746175456587</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1746175456587</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -609,8 +606,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Changed header because it had a fixed color" />
-    <MESSAGE value="NavigationHeader.tsx now utilizes the export from ThemeData.tsx" />
     <MESSAGE value="OnlineStatus.tsx with discord presences" />
     <MESSAGE value="Supports: typewrite-effect, discord.js, express(rate-limit), dotenv, cors" />
     <MESSAGE value="Discord Server to fetch userID on discord to get presence status." />
@@ -633,6 +628,8 @@
     <MESSAGE value="Fixed mobile responsiveness" />
     <MESSAGE value="Added Contact.scss" />
     <MESSAGE value="Added contact.tsx that adds more content to my portfolio" />
+    <MESSAGE value="Fixed contact.scss by checking clas in tsx" />
+    <MESSAGE value="Added contact.tsx fix by applying class to body and root." />
     <MESSAGE value="Added workspace.xml" />
     <option name="LAST_COMMIT_MESSAGE" value="Added workspace.xml" />
   </component>
