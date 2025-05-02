@@ -4,12 +4,26 @@ import { FaGithub } from 'react-icons/fa'
 import '@style/component/Contact.scss'
 import "@style/main.scss"
 import {NavigationHeader} from "@component/NavigationHeader";
+import {useEffect} from "react";
 
 export const Route = createFileRoute('/contact')({
   component: RouteComponent,
 })
 
+
+
 function RouteComponent() {
+
+  useEffect(() => {
+    document.body.classList.add("contact__portfolio-body");
+    document.getElementById("root").classList.add("contact__portfolio-root")
+    return () => {
+      document.body.classList.remove("contact__portfolio-body");
+      document.getElementById("root").classList.remove("contact__portfolio-root");
+    };
+  }, []);
+
+
   return (
       <>
       <NavigationHeader></NavigationHeader>
