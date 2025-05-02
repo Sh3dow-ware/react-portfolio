@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd0a7f1e-d32d-4751-bdd5-6efed6879d55" name="Changes" comment="Made some small essential changes to add support for another icon.">
+    <list default="true" id="dd0a7f1e-d32d-4751-bdd5-6efed6879d55" name="Changes" comment="Fixed mobile responsiveness">
+      <change afterPath="$PROJECT_DIR$/src/style/component/Contact.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/contact.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/contact.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,31 +67,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Node.js.Server.ts.executor": "Run",
-    "ReactCreateComponentLastSelected": "arrowFunctionComponent",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/U2486896/Downloads/Roskilde/workspace/react-portfolio",
-    "list.type.of.created.stylesheet": "SCSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_interpreter_path": "node",
-    "nodejs_package_manager_path": "npm",
-    "npm.build:dev.executor": "Run",
-    "npm.build:prod.executor": "Run",
-    "npm.dev.executor": "Run",
-    "npm.npm dev.executor": "Run",
-    "settings.editor.selected.configurable": "web-ide.project.structure",
-    "ts.external.directory.path": "C:\\Users\\U2486896\\Downloads\\Roskilde\\workspace\\react-portfolio\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Node.js.Server.ts.executor&quot;: &quot;Run&quot;,
+    &quot;ReactCreateComponentLastSelected&quot;: &quot;arrowFunctionComponent&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/U2486896/Downloads/Roskilde/workspace/react-portfolio&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.build:dev.executor&quot;: &quot;Run&quot;,
+    &quot;npm.build:prod.executor&quot;: &quot;Run&quot;,
+    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
+    &quot;npm.npm dev.executor&quot;: &quot;Run&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;web-ide.project.structure&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\U2486896\\Downloads\\Roskilde\\workspace\\react-portfolio\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -194,15 +196,8 @@
       <workItem from="1741946246989" duration="3147000" />
       <workItem from="1741952403665" duration="2811000" />
       <workItem from="1742195004061" duration="108000" />
-      <workItem from="1746167079198" duration="361000" />
-    </task>
-    <task id="LOCAL-00005" summary="Changed vite.config">
-      <option name="closed" value="true" />
-      <created>1738154890908</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1738154890908</updated>
+      <workItem from="1746167079198" duration="1050000" />
+      <workItem from="1746172268854" duration="1248000" />
     </task>
     <task id="LOCAL-00006" summary="Changed vite.config">
       <option name="closed" value="true" />
@@ -588,7 +583,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742195034779</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Fixed mobile responsiveness">
+      <option name="closed" value="true" />
+      <created>1746167607247</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1746167607247</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -606,7 +609,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="main.scss is now utilizing data-theme" />
     <MESSAGE value="MainContent.scss changed background for darkmode to work" />
     <MESSAGE value="Added typewrite effect" />
     <MESSAGE value="Changed header because it had a fixed color" />
@@ -631,6 +633,7 @@
     <MESSAGE value="Added essential files" />
     <MESSAGE value="added essential images" />
     <MESSAGE value="Made some small essential changes to add support for another icon." />
-    <option name="LAST_COMMIT_MESSAGE" value="Made some small essential changes to add support for another icon." />
+    <MESSAGE value="Fixed mobile responsiveness" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed mobile responsiveness" />
   </component>
 </project>
