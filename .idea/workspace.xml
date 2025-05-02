@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd0a7f1e-d32d-4751-bdd5-6efed6879d55" name="Changes" comment="Fixed mobile responsiveness">
-      <change afterPath="$PROJECT_DIR$/src/style/component/Contact.scss" afterDir="false" />
+    <list default="true" id="dd0a7f1e-d32d-4751-bdd5-6efed6879d55" name="Changes" comment="Added workspace.xml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/contact.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/contact.tsx" afterDir="false" />
     </list>
@@ -197,31 +196,8 @@
       <workItem from="1741952403665" duration="2811000" />
       <workItem from="1742195004061" duration="108000" />
       <workItem from="1746167079198" duration="1050000" />
-      <workItem from="1746172268854" duration="1248000" />
-    </task>
-    <task id="LOCAL-00006" summary="Changed vite.config">
-      <option name="closed" value="true" />
-      <created>1738155259850</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1738155259850</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Changed vite.config">
-      <option name="closed" value="true" />
-      <created>1738155497116</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1738155497116</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Changed vite.config">
-      <option name="closed" value="true" />
-      <created>1738155553058</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1738155553058</updated>
+      <workItem from="1746172268854" duration="1574000" />
+      <workItem from="1746173935436" duration="1279000" />
     </task>
     <task id="LOCAL-00009" summary="Added files">
       <option name="closed" value="true" />
@@ -591,7 +567,31 @@
       <option name="project" value="LOCAL" />
       <updated>1746167607247</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="Added Contact.scss">
+      <option name="closed" value="true" />
+      <created>1746173798365</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1746173798365</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Added contact.tsx that adds more content to my portfolio">
+      <option name="closed" value="true" />
+      <created>1746173816232</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1746173816232</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Added workspace.xml">
+      <option name="closed" value="true" />
+      <created>1746173825434</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1746173825434</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -609,8 +609,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="MainContent.scss changed background for darkmode to work" />
-    <MESSAGE value="Added typewrite effect" />
     <MESSAGE value="Changed header because it had a fixed color" />
     <MESSAGE value="NavigationHeader.tsx now utilizes the export from ThemeData.tsx" />
     <MESSAGE value="OnlineStatus.tsx with discord presences" />
@@ -619,7 +617,6 @@
     <MESSAGE value="Removed linear gradient to support dataTheme" />
     <MESSAGE value="Removed dataIcons and moved it into Utility" />
     <MESSAGE value="Added Light Mode &amp; Dark Mode Icon." />
-    <MESSAGE value="Added workspace.xml" />
     <MESSAGE value="Added user.jpg" />
     <MESSAGE value="Updated localstorage with props" />
     <MESSAGE value="imported getThemeData to get dark or light mode." />
@@ -634,6 +631,9 @@
     <MESSAGE value="added essential images" />
     <MESSAGE value="Made some small essential changes to add support for another icon." />
     <MESSAGE value="Fixed mobile responsiveness" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed mobile responsiveness" />
+    <MESSAGE value="Added Contact.scss" />
+    <MESSAGE value="Added contact.tsx that adds more content to my portfolio" />
+    <MESSAGE value="Added workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added workspace.xml" />
   </component>
 </project>
