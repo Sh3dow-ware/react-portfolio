@@ -1,10 +1,10 @@
-body,
-#root {
+.contact__portfolio-body,
+.contact__portfolio-root {
   height: 100vh;
   margin: 0;
 }
 
-#root {
+.contact__portfolio-root {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(2, max-content);
