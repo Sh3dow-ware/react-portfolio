@@ -16,10 +16,10 @@ function RouteComponent() {
 
   useEffect(() => {
     document.body.classList.add("contact__portfolio-body");
-    document.getElementById("root").classList.add("contact__portfolio-root")
+    document.getElementById("root")?.classList.add("contact__portfolio-root")
     return () => {
       document.body.classList.remove("contact__portfolio-body");
-      document.getElementById("root").classList.remove("contact__portfolio-root");
+      document.getElementById("root")?.classList.remove("contact__portfolio-root");
     };
   }, []);
 

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd0a7f1e-d32d-4751-bdd5-6efed6879d55" name="Changes" comment="Added workspace.xml" />
+    <list default="true" id="dd0a7f1e-d32d-4751-bdd5-6efed6879d55" name="Changes" comment="added workspace.xml" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -194,23 +194,7 @@
       <workItem from="1742195004061" duration="108000" />
       <workItem from="1746167079198" duration="1050000" />
       <workItem from="1746172268854" duration="1574000" />
-      <workItem from="1746173935436" duration="1585000" />
-    </task>
-    <task id="LOCAL-00012" summary="background image style">
-      <option name="closed" value="true" />
-      <created>1738157094883</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1738157094883</updated>
-    </task>
-    <task id="LOCAL-00013" summary="minor changes">
-      <option name="closed" value="true" />
-      <created>1738157684741</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1738157684741</updated>
+      <workItem from="1746173935436" duration="1618000" />
     </task>
     <task id="LOCAL-00014" summary="minor changes">
       <option name="closed" value="true" />
@@ -588,7 +572,23 @@
       <option name="project" value="LOCAL" />
       <updated>1746175456587</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="fixed padding issue">
+      <option name="closed" value="true" />
+      <created>1746175549042</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1746175549042</updated>
+    </task>
+    <task id="LOCAL-00062" summary="added workspace.xml">
+      <option name="closed" value="true" />
+      <created>1746175557801</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1746175557801</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -606,8 +606,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="OnlineStatus.tsx with discord presences" />
-    <MESSAGE value="Supports: typewrite-effect, discord.js, express(rate-limit), dotenv, cors" />
     <MESSAGE value="Discord Server to fetch userID on discord to get presence status." />
     <MESSAGE value="Removed linear gradient to support dataTheme" />
     <MESSAGE value="Removed dataIcons and moved it into Utility" />
@@ -631,6 +629,8 @@
     <MESSAGE value="Fixed contact.scss by checking clas in tsx" />
     <MESSAGE value="Added contact.tsx fix by applying class to body and root." />
     <MESSAGE value="Added workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added workspace.xml" />
+    <MESSAGE value="fixed padding issue" />
+    <MESSAGE value="added workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="added workspace.xml" />
   </component>
 </project>
