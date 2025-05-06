@@ -7,13 +7,29 @@ import javascriptLogo from "../images/JS.svg";
 import typescriptLogo from "../images/TS.svg";
 import pythonLogo from "../images/PY.svg";
 import luaLogo from "../images/LUAU.svg";
+import phpLogo from "../images/PHP.svg";
+
+import reactLogo from "../images/REACT.svg";
+import viteLogo from "../images/VITE.svg";
+import scssLogo from "../images/SCSS.svg";
+import {ThemeProvider} from "../context/ThemeContext";
+import {SkillComponent} from "@component/SkillComponent";
+
 
 const icons = {
     "JavaScript": javascriptLogo,
     "TypeScript": typescriptLogo,
     "Python": pythonLogo,
     "Lua": luaLogo,
+    "PHP": phpLogo,
 };
+
+
+const tools = {
+    "React": reactLogo,
+    "Vite": viteLogo,
+    "SCCS": scssLogo
+}
 
 export const Route = createFileRoute('/')({
     component: Index,
@@ -22,14 +38,11 @@ export const Route = createFileRoute('/')({
 function Index() {
     return (
         <>
-            <NavigationHeader></NavigationHeader>
-            <MainContent></MainContent>
-            <div className="skills">
-                <h2 className="skills-header__title">Expertise</h2>
-                {Object.entries(icons).map(([key, icon], index) => (
-                    <SkillCard key={index} imgSrc={icon} title={key}/>
-                ))}
-            </div>
+            <ThemeProvider>
+                <NavigationHeader></NavigationHeader>
+                <MainContent></MainContent>
+                <SkillComponent icons={icons} tools={tools}></SkillComponent>
+            </ThemeProvider>
         </>
     )
 }
