@@ -1,55 +1,49 @@
-import React from "react";
-import { Link } from '@tanstack/react-router';
+import React, { useEffect, useState } from "react";
+import { Link } from "@tanstack/react-router";
 import "../style/component/Navigation.scss";
 import { getThemeData } from "../utility/ThemeData";
-import { GetLocalStorage, SetLocalStorage } from "../utility/LocalStorage";
 import { TiThMenu } from "react-icons/ti";
 
+import {useTheme} from "../context/UseTheme";
+
 export const NavigationHeader = () => {
-    // Variables, states, storage.
-    const storedTheme = GetLocalStorage({name: "data-theme"}) || "light";
-    const currentThemeKey = storedTheme === "dark" ? "Light" : "Dark";
+    const { theme, toggleTheme } = useTheme();
+    const currentThemeKey = theme === "dark" ? "Light" : "Dark";
     const { type: IconComponent } = getThemeData(currentThemeKey);
-    const [isDarkMode, setIsDarkMode] = React.useState(storedTheme === "dark");
-    const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
-    const handleThemeToggle = () => {
-        const newTheme = isDarkMode ? "light" : "dark";
-        SetLocalStorage({ name: "data-theme", value: newTheme });
-        setIsDarkMode(!isDarkMode);
-        document.body.setAttribute("data-theme", newTheme);
-    };
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-    React.useEffect(() => {
-        const stored = GetLocalStorage({name: "data-theme"}) || "light";
-        document.body.setAttribute("data-theme", stored);
-        document.body.className = `${isMenuOpen ? "content-overflow-hidden" : "content-overflow-auto"}`;
+    useEffect(() => {
+        document.body.className = isMenuOpen
+            ? "content-overflow-hidden"
+            : "content-overflow-auto";
     }, [isMenuOpen]);
 
-    const toggleMenu = () => {
-        setIsMenuOpen(!isMenuOpen);
-    };
-
     return (
-        <header className="nav-header">
+        <header className="nav-header" data-theme={theme}>
             <nav className="nav-header__container">
-                <ul className={`nav-header__list ${isMenuOpen ? "open" : ""}`} data-theme={isDarkMode ? "dark" : "light"}>
+                <ul className={`nav-header__list ${isMenuOpen ? "open" : ""}`} data-theme={theme}>
                     <li className="nav-header__item">
-                        <Link className="nav-header__link" to="/">Portfolio</Link>
+                        <Link className="nav-header__link" to="/">
+                            Portfolio
+                        </Link>
                     </li>
                     <li className="nav-header__item">
-                        <Link className="nav-header__link" to="/projects">Projects</Link>
+                        <Link className="nav-header__link" to="/projects">
+                            Projects
+                        </Link>
                     </li>
                     <li className="nav-header__item">
-                        <Link className="nav-header__link" to="/contact">Contact</Link>
+                        <Link className="nav-header__link" to="/contact">
+                            Contact
+                        </Link>
                     </li>
                 </ul>
-                <TiThMenu className="nav-header__menu" onClick={toggleMenu} />
-                <button
-                    className="nav-header__toggle"
-                    onClick={handleThemeToggle}
-                >
-                    {isDarkMode ? "Light" : "Dark"}
+
+                <TiThMenu className="nav-header__menu" onClick={() => setIsMenuOpen(!isMenuOpen)} />
+
+                <button className="nav-header__toggle" onClick={toggleTheme}>
+                    {theme === "dark" ? "Light" : "Dark"}
                     <IconComponent />
                 </button>
             </nav>
