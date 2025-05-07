@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd0a7f1e-d32d-4751-bdd5-6efed6879d55" name="Changes" comment="Changed scss to make icons fill better, if they are unequally distributed with flex 1 and remove of background.">
-      <change afterPath="$PROJECT_DIR$/src/component/SkillComponent.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/context/ThemeContext.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/context/UseTheme.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/CrtEffect.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/component/CrtEffect.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/contact.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/contact.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/projects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/projects.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/component/SkillCard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/component/SkillCard.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/themes/data-theme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/themes/data-theme.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,6 +207,7 @@
       <workItem from="1746517424795" duration="492000" />
       <workItem from="1746517936730" duration="85000" />
       <workItem from="1746518034637" duration="11492000" />
+      <workItem from="1746601155848" duration="5379000" />
     </task>
     <task id="LOCAL-00023" summary="Added FocusBlurFooter.tsx(will be renamed in future)">
       <option name="closed" value="true" />
