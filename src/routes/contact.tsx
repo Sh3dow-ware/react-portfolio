@@ -6,6 +6,7 @@ import "@style/main.scss"
 import {NavigationHeader} from "@component/NavigationHeader";
 import {useEffect} from "react";
 import {ThemeProvider} from "../context/ThemeContext";
+import { CrtEffect } from '@component/CrtEffect'
 
 export const Route = createFileRoute('/contact')({
   component: RouteComponent,
@@ -28,6 +29,7 @@ function RouteComponent() {
   return (
       <>
         <ThemeProvider>
+          <CrtEffect></CrtEffect>
       <NavigationHeader></NavigationHeader>
       <div className="contact">
         <h1 className="contact__title">Contact Me</h1>

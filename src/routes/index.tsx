@@ -2,7 +2,6 @@ import {createFileRoute} from '@tanstack/react-router'
 import {MainContent} from "@component/MainContent";
 import {NavigationHeader} from "@component/NavigationHeader";
 import "@style/main.scss"
-import {SkillCard} from "@component/SkillCard";
 import javascriptLogo from "../images/JS.svg";
 import typescriptLogo from "../images/TS.svg";
 import pythonLogo from "../images/PY.svg";
@@ -14,6 +13,7 @@ import viteLogo from "../images/VITE.svg";
 import scssLogo from "../images/SCSS.svg";
 import {ThemeProvider} from "../context/ThemeContext";
 import {SkillComponent} from "@component/SkillComponent";
+import {CrtEffect} from "@component/CrtEffect";
 
 
 const icons = {
@@ -39,6 +39,7 @@ function Index() {
     return (
         <>
             <ThemeProvider>
+                <CrtEffect></CrtEffect>
                 <NavigationHeader></NavigationHeader>
                 <MainContent></MainContent>
                 <SkillComponent icons={icons} tools={tools}></SkillComponent>
