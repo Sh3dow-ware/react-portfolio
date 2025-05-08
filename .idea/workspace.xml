@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd0a7f1e-d32d-4751-bdd5-6efed6879d55" name="Changes" comment="Changed scss to make icons fill better, if they are unequally distributed with flex 1 and remove of background.">
-      <change afterPath="$PROJECT_DIR$/src/component/CrtEffect.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/component/CrtEffect.scss" afterDir="false" />
+    <list default="true" id="dd0a7f1e-d32d-4751-bdd5-6efed6879d55" name="Changes" comment="Added notFoundMode to fuzzy incase, if tanstack changes their default to something else.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/contact.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/contact.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/projects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/projects.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/component/SkillCard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/component/SkillCard.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/themes/data-theme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/themes/data-theme.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routeTree.gen.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routeTree.gen.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,6 +101,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\U2486896\Downloads\Roskilde\workspace\react-portfolio\src\routes" />
+      <recent name="C:\Users\U2486896\Downloads\Roskilde\workspace\react-portfolio\src\routes\(list)" />
+      <recent name="C:\Users\U2486896\Downloads\Roskilde\workspace\react-portfolio\src\routes\contact" />
       <recent name="C:\Users\U2486896\Downloads\workspace\react-portfolio\src\images" />
       <recent name="C:\Users\U2486896\Downloads\workspace\renewedportfolio\src\style\component" />
     </key>
@@ -207,79 +204,9 @@
       <workItem from="1746517424795" duration="492000" />
       <workItem from="1746517936730" duration="85000" />
       <workItem from="1746518034637" duration="11492000" />
-      <workItem from="1746601155848" duration="5379000" />
-    </task>
-    <task id="LOCAL-00023" summary="Added FocusBlurFooter.tsx(will be renamed in future)">
-      <option name="closed" value="true" />
-      <created>1738330646993</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1738330646993</updated>
-    </task>
-    <task id="LOCAL-00024" summary="Added Footer.scss to include styling for the footer component, name will be changed to reflect it's purpose">
-      <option name="closed" value="true" />
-      <created>1738330689539</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1738330689539</updated>
-    </task>
-    <task id="LOCAL-00025" summary="Added FocusBlurFooter, renaming under construction.">
-      <option name="closed" value="true" />
-      <created>1738330743961</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1738330743961</updated>
-    </task>
-    <task id="LOCAL-00026" summary="Added export variable of the Icons, urls etc.">
-      <option name="closed" value="true" />
-      <created>1738330781252</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1738330781252</updated>
-    </task>
-    <task id="LOCAL-00027" summary="main.scss is now utilizing data-theme">
-      <option name="closed" value="true" />
-      <created>1738330807707</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1738330807707</updated>
-    </task>
-    <task id="LOCAL-00028" summary="MainContent.scss changed background for darkmode to work">
-      <option name="closed" value="true" />
-      <created>1738330826402</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1738330826402</updated>
-    </task>
-    <task id="LOCAL-00029" summary="Added typewrite effect">
-      <option name="closed" value="true" />
-      <created>1738330850116</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1738330850116</updated>
-    </task>
-    <task id="LOCAL-00030" summary="Changed header because it had a fixed color">
-      <option name="closed" value="true" />
-      <created>1738330875655</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1738330875655</updated>
-    </task>
-    <task id="LOCAL-00031" summary="NavigationHeader.tsx now utilizes the export from ThemeData.tsx">
-      <option name="closed" value="true" />
-      <created>1738330899697</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1738330899697</updated>
+      <workItem from="1746601155848" duration="11108000" />
+      <workItem from="1746692656949" duration="3894000" />
+      <workItem from="1746698661176" duration="1995000" />
     </task>
     <task id="LOCAL-00032" summary="OnlineStatus.tsx with discord presences">
       <option name="closed" value="true" />
@@ -601,7 +528,79 @@
       <option name="project" value="LOCAL" />
       <updated>1746533409073</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="Added CRT scanline effect.">
+      <option name="closed" value="true" />
+      <created>1746613177311</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1746613177311</updated>
+    </task>
+    <task id="LOCAL-00073" summary="Added styling for crt effect">
+      <option name="closed" value="true" />
+      <created>1746613195567</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1746613195567</updated>
+    </task>
+    <task id="LOCAL-00074" summary="transition between dark and light mode cause of smoothnesws">
+      <option name="closed" value="true" />
+      <created>1746613226282</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1746613226282</updated>
+    </task>
+    <task id="LOCAL-00075" summary="Added Background-color around to the title of programming languages to make it look awesome.">
+      <option name="closed" value="true" />
+      <created>1746613308024</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1746613308024</updated>
+    </task>
+    <task id="LOCAL-00076" summary="Added workspace.xml">
+      <option name="closed" value="true" />
+      <created>1746613342353</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1746613342353</updated>
+    </task>
+    <task id="LOCAL-00077" summary="Custom 404 error, if navigating to wrong URL via catch-all routes $.">
+      <option name="closed" value="true" />
+      <created>1746700496153</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1746700496153</updated>
+    </task>
+    <task id="LOCAL-00078" summary="Root now has a global error message, which can be overriden via catch-all routes.">
+      <option name="closed" value="true" />
+      <created>1746700527257</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1746700527257</updated>
+    </task>
+    <task id="LOCAL-00079" summary="Added useRouter to get the location path to check, whether if it matches it dosent match /contact. then it only provide the &lt;Outlet&gt;, which fixes the error for me.">
+      <option name="closed" value="true" />
+      <created>1746700595633</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1746700595633</updated>
+    </task>
+    <task id="LOCAL-00080" summary="Added notFoundMode to fuzzy incase, if tanstack changes their default to something else.">
+      <option name="closed" value="true" />
+      <created>1746700636235</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1746700636235</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -619,20 +618,11 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added FocusBlurFooter.tsx" />
-    <MESSAGE value="Added GalleryComponent.tsx" />
-    <MESSAGE value="Added main.tsx routing will most likely change to tanstack router." />
-    <MESSAGE value="Added MainContent.scss" />
-    <MESSAGE value="Added border-radius + margin" />
-    <MESSAGE value="Added essential files" />
-    <MESSAGE value="added essential images" />
-    <MESSAGE value="Made some small essential changes to add support for another icon." />
     <MESSAGE value="Fixed mobile responsiveness" />
     <MESSAGE value="Added Contact.scss" />
     <MESSAGE value="Added contact.tsx that adds more content to my portfolio" />
     <MESSAGE value="Fixed contact.scss by checking clas in tsx" />
     <MESSAGE value="Added contact.tsx fix by applying class to body and root." />
-    <MESSAGE value="Added workspace.xml" />
     <MESSAGE value="fixed padding issue" />
     <MESSAGE value="added workspace.xml" />
     <MESSAGE value="fixed contact.tsx" />
@@ -644,6 +634,15 @@
     <MESSAGE value="NavigationHeader has removed useless bloat from NavigationHeader and switched the previous dark mode option with ThemeProvider." />
     <MESSAGE value="Added ThemeProvider to support global dark mode." />
     <MESSAGE value="Changed scss to make icons fill better, if they are unequally distributed with flex 1 and remove of background." />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed scss to make icons fill better, if they are unequally distributed with flex 1 and remove of background." />
+    <MESSAGE value="Added CRT scanline effect." />
+    <MESSAGE value="Added styling for crt effect" />
+    <MESSAGE value="transition between dark and light mode cause of smoothnesws" />
+    <MESSAGE value="Added Background-color around to the title of programming languages to make it look awesome." />
+    <MESSAGE value="Added workspace.xml" />
+    <MESSAGE value="Custom 404 error, if navigating to wrong URL via catch-all routes $." />
+    <MESSAGE value="Root now has a global error message, which can be overriden via catch-all routes." />
+    <MESSAGE value="Added useRouter to get the location path to check, whether if it matches it dosent match /contact. then it only provide the &lt;Outlet&gt;, which fixes the error for me." />
+    <MESSAGE value="Added notFoundMode to fuzzy incase, if tanstack changes their default to something else." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added notFoundMode to fuzzy incase, if tanstack changes their default to something else." />
   </component>
 </project>
