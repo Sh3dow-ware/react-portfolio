@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd0a7f1e-d32d-4751-bdd5-6efed6879d55" name="Changes" comment="Added notFoundMode to fuzzy incase, if tanstack changes their default to something else.">
+    <list default="true" id="dd0a7f1e-d32d-4751-bdd5-6efed6879d55" name="Changes" comment="Added workspace.xml">
+      <change afterPath="$PROJECT_DIR$/src/component/ContactComponent.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utility/VariableUtilities.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routeTree.gen.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routeTree.gen.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/contact.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/contact.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,23 +208,7 @@
       <workItem from="1746518034637" duration="11492000" />
       <workItem from="1746601155848" duration="11108000" />
       <workItem from="1746692656949" duration="3894000" />
-      <workItem from="1746698661176" duration="1995000" />
-    </task>
-    <task id="LOCAL-00032" summary="OnlineStatus.tsx with discord presences">
-      <option name="closed" value="true" />
-      <created>1738330929352</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1738330929352</updated>
-    </task>
-    <task id="LOCAL-00033" summary="Supports: typewrite-effect, discord.js, express(rate-limit), dotenv, cors">
-      <option name="closed" value="true" />
-      <created>1738330983602</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1738330983602</updated>
+      <workItem from="1746698661176" duration="3021000" />
     </task>
     <task id="LOCAL-00034" summary="Supports: typewrite-effect, discord.js, express(rate-limit), dotenv, cors">
       <option name="closed" value="true" />
@@ -600,7 +586,23 @@
       <option name="project" value="LOCAL" />
       <updated>1746700636235</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="Automated roteTree that has added  the contactSplatRoute for catch-all routes.">
+      <option name="closed" value="true" />
+      <created>1746700696421</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1746700696421</updated>
+    </task>
+    <task id="LOCAL-00082" summary="Added workspace.xml">
+      <option name="closed" value="true" />
+      <created>1746700706394</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1746700706394</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -618,7 +620,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fixed mobile responsiveness" />
     <MESSAGE value="Added Contact.scss" />
     <MESSAGE value="Added contact.tsx that adds more content to my portfolio" />
     <MESSAGE value="Fixed contact.scss by checking clas in tsx" />
@@ -638,11 +639,12 @@
     <MESSAGE value="Added styling for crt effect" />
     <MESSAGE value="transition between dark and light mode cause of smoothnesws" />
     <MESSAGE value="Added Background-color around to the title of programming languages to make it look awesome." />
-    <MESSAGE value="Added workspace.xml" />
     <MESSAGE value="Custom 404 error, if navigating to wrong URL via catch-all routes $." />
     <MESSAGE value="Root now has a global error message, which can be overriden via catch-all routes." />
     <MESSAGE value="Added useRouter to get the location path to check, whether if it matches it dosent match /contact. then it only provide the &lt;Outlet&gt;, which fixes the error for me." />
     <MESSAGE value="Added notFoundMode to fuzzy incase, if tanstack changes their default to something else." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added notFoundMode to fuzzy incase, if tanstack changes their default to something else." />
+    <MESSAGE value="Automated roteTree that has added  the contactSplatRoute for catch-all routes." />
+    <MESSAGE value="Added workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added workspace.xml" />
   </component>
 </project>
