@@ -14,6 +14,7 @@ import { Route as rootRoute } from './routes/__root'
 import { Route as ProjectsImport } from './routes/projects'
 import { Route as ContactImport } from './routes/contact'
 import { Route as IndexImport } from './routes/index'
+import { Route as ContactSplatImport } from './routes/contact/$'
 
 // Create/Update Routes
 
@@ -33,6 +34,12 @@ const IndexRoute = IndexImport.update({
   id: '/',
   path: '/',
   getParentRoute: () => rootRoute,
+} as any)
+
+const ContactSplatRoute = ContactSplatImport.update({
+  id: '/$',
+  path: '/$',
+  getParentRoute: () => ContactRoute,
 } as any)
 
 // Populate the FileRoutesByPath interface
@@ -60,48 +67,69 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ProjectsImport
       parentRoute: typeof rootRoute
     }
+    '/contact/$': {
+      id: '/contact/$'
+      path: '/$'
+      fullPath: '/contact/$'
+      preLoaderRoute: typeof ContactSplatImport
+      parentRoute: typeof ContactImport
+    }
   }
 }
 
 // Create and export the route tree
 
+interface ContactRouteChildren {
+  ContactSplatRoute: typeof ContactSplatRoute
+}
+
+const ContactRouteChildren: ContactRouteChildren = {
+  ContactSplatRoute: ContactSplatRoute,
+}
+
+const ContactRouteWithChildren =
+  ContactRoute._addFileChildren(ContactRouteChildren)
+
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
-  '/contact': typeof ContactRoute
+  '/contact': typeof ContactRouteWithChildren
   '/projects': typeof ProjectsRoute
+  '/contact/$': typeof ContactSplatRoute
 }
 
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
-  '/contact': typeof ContactRoute
+  '/contact': typeof ContactRouteWithChildren
   '/projects': typeof ProjectsRoute
+  '/contact/$': typeof ContactSplatRoute
 }
 
 export interface FileRoutesById {
   __root__: typeof rootRoute
   '/': typeof IndexRoute
-  '/contact': typeof ContactRoute
+  '/contact': typeof ContactRouteWithChildren
   '/projects': typeof ProjectsRoute
+  '/contact/$': typeof ContactSplatRoute
 }
 
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/contact' | '/projects'
+  fullPaths: '/' | '/contact' | '/projects' | '/contact/$'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/contact' | '/projects'
-  id: '__root__' | '/' | '/contact' | '/projects'
+  to: '/' | '/contact' | '/projects' | '/contact/$'
+  id: '__root__' | '/' | '/contact' | '/projects' | '/contact/$'
   fileRoutesById: FileRoutesById
 }
 
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
-  ContactRoute: typeof ContactRoute
+  ContactRoute: typeof ContactRouteWithChildren
   ProjectsRoute: typeof ProjectsRoute
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
-  ContactRoute: ContactRoute,
+  ContactRoute: ContactRouteWithChildren,
   ProjectsRoute: ProjectsRoute,
 }
 
@@ -124,10 +152,17 @@ export const routeTree = rootRoute
       "filePath": "index.tsx"
     },
     "/contact": {
-      "filePath": "contact.tsx"
+      "filePath": "contact.tsx",
+      "children": [
+        "/contact/$"
+      ]
     },
     "/projects": {
       "filePath": "projects.tsx"
+    },
+    "/contact/$": {
+      "filePath": "contact/$.tsx",
+      "parent": "/contact"
     }
   }
 }
