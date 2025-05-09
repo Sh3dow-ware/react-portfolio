@@ -15,6 +15,7 @@ export const NavigationHeader = () => {
 
     useEffect(() => {
         document.body.classList.toggle("content-overflow-hidden", isMenuOpen);
+        console.log("yes")
     }, [isMenuOpen]);
 
 

@@ -5,13 +5,11 @@ interface SkillCardProps {
     title: string;
 }
 
-export const SkillCard: React.FC<SkillCardProps> = ({ imgSrc, title }) => {
+export const SkillCard = React.memo(({ imgSrc, title }: SkillCardProps) => {
     return (
-        <>
         <figure className="skills__card">
-            <img src={imgSrc} alt={title} className="skills__img"  />
+            <img src={imgSrc} alt={title} className="skills__img" loading="eager" />
             <figcaption className="skills__title">{title}</figcaption>
         </figure>
-        </>
     );
-};
+});
