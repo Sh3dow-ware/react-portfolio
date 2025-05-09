@@ -4,7 +4,7 @@
   gap: 1rem;
   justify-content: center;
   font-family: Arial, Helvetica, sans-serif;
-  background: linear-gradient(0deg, rgb(255, 255, 255, 0.5), rgba(86, 0, 154, 0.78)), url("../../images/minimalisticbackground.jpg");
+  background: linear-gradient(0deg, rgb(255, 255, 255, 0.5), rgba(86, 0, 154, 0.78)), url("../../images/grainy.png");
   padding: 20px;
   &-header__title {
     flex-basis: 100%;
@@ -52,5 +52,5 @@
 }
 
 .skills.reverse-background {
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.78)), url("../../images/minimalisticbackground.jpg");
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.78)), url("../../images/grainy.png");
 }
