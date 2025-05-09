@@ -5,9 +5,10 @@
     "jsx": "react-jsx",
     "target": "ESNext",
     "module": "ESNext",
-    "moduleResolution": "Bundler",
+    "moduleResolution": "node",
     "skipLibCheck": true,
     "baseUrl": "./src",
+    "outDir": "build",
     "paths": {
       "@component/*": ["component/*"],
       "@style/*": ["style/*"]
