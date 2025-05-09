@@ -6,10 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "build:server": "tsc express-server.ts --outDir build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "heroku-postbuild": "npm run build && npm run build:server",
+    "heroku-postbuild": "npm run build",
     "start": "node build/express-server.js"
   },
   "dependencies": {
