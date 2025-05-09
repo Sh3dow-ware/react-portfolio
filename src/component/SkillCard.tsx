@@ -9,7 +9,7 @@ export const SkillCard: React.FC<SkillCardProps> = ({ imgSrc, title }) => {
     return (
         <>
         <figure className="skills__card">
-            <img src={imgSrc} alt={title} className="skills__img" loading="lazy" />
+            <img src={imgSrc} alt={title} className="skills__img"  />
             <figcaption className="skills__title">{title}</figcaption>
         </figure>
         </>
