@@ -7,7 +7,6 @@
   position: fixed;
   width: 100%;
   z-index: 1000;
-  filter: blur(0.25px);
   padding: 1rem;
   font-family: 'Monaspace Krypton', monospace;
 
@@ -82,13 +81,14 @@
     transform: translateY(-500px);
     pointer-events: none;
     transition: opacity 0.5s ease, transform 0.5s ease;
+    height: 100vh;
+    will-change: transform, opacity;
   }
 
   .nav-header__list.open {
     opacity: 1;
     transform: translateY(0);
     pointer-events: auto;
-    height: 100vh;
   }
 
   .nav-header__list.closing {
