@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "heroku-postbuild": "npm run build",
-    "start": "node build/express-server.js"
+    "start": "node express-server.js"
   },
   "dependencies": {
     "@fontsource/monaspace-krypton": "^5.2.5",
