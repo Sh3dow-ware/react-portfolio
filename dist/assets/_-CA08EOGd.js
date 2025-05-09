@@ -1,0 +1,1 @@
+import{j as t}from"./index-Cg_RyKSj.js";const o=()=>t.jsxs("div",{className:"contact-404",children:[t.jsx("h2",{children:"Invalid Contact Subpage"}),t.jsx("p",{children:"This contact path doesn't exist"})]});export{o as notFoundComponent};

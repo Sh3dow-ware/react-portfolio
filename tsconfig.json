@@ -13,4 +13,5 @@
       "@style/*": ["style/*"]
     }
   },
+  "include": ["express-server.ts", "src"]
 }
