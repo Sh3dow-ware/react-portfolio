@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd0a7f1e-d32d-4751-bdd5-6efed6879d55" name="Changes" comment="Added utility variables to get email, github" />
+    <list default="true" id="dd0a7f1e-d32d-4751-bdd5-6efed6879d55" name="Changes" comment="Added utility variables to get email, github">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/component/Navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/component/Navigation.scss" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -107,7 +110,7 @@
       <recent name="C:\Users\U2486896\Downloads\Roskilde\workspace\react-portfolio\src\routes\contact" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.build:server">
+  <component name="RunManager" selected="npm.npm dev">
     <configuration name="Server.ts" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Server.ts" typescript-loader="bundled" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -230,7 +233,7 @@
       <workItem from="1746698661176" duration="3992000" />
       <workItem from="1746775713692" duration="987000" />
       <workItem from="1746776719783" duration="399000" />
-      <workItem from="1746777257768" duration="1878000" />
+      <workItem from="1746777257768" duration="2502000" />
     </task>
     <task id="LOCAL-00037" summary="Removed dataIcons and moved it into Utility">
       <option name="closed" value="true" />
@@ -631,6 +634,7 @@
     <option name="version" value="3" />
     <option name="exactExcludedFiles">
       <list>
+        <option value="$PROJECT_DIR$/express-server.js" />
         <option value="$PROJECT_DIR$/express-server.js" />
       </list>
     </option>
