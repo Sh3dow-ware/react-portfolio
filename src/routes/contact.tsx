@@ -1,12 +1,9 @@
 import {createFileRoute, Outlet, useRouter} from '@tanstack/react-router'
-import {MdEmail} from 'react-icons/md'
-import {FaGithub} from 'react-icons/fa'
 import '@style/component/Contact.scss'
 import "@style/main.scss"
 import {NavigationHeader} from "@component/NavigationHeader";
 import {useEffect} from "react";
 import {ThemeProvider} from "../context/ThemeContext";
-import {CrtEffect} from '@component/CrtEffect'
 import {ContactComponent} from "@component/ContactComponent";
 
 export const Route = createFileRoute('/contact')({
@@ -33,7 +30,6 @@ function RouteComponent() {
     return (
         <>
             <ThemeProvider>
-                <CrtEffect></CrtEffect>
                 <NavigationHeader></NavigationHeader>
                 <ContactComponent></ContactComponent>
             </ThemeProvider>

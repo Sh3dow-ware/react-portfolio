@@ -71,17 +71,15 @@
     justify-content: center;
     align-items: center;
     position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    inset: 0;
     z-index: 2;
     background-color: inherit;
     opacity: 0;
-    transform: translateY(-500px);
+    transform: translateY(-100%);
     pointer-events: none;
-    transition: opacity 0.5s ease, transform 0.5s ease;
-    height: 100vh;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    height: 100dvh;
+    overflow-y: auto;
     will-change: transform, opacity;
   }
 
@@ -93,7 +91,7 @@
 
   .nav-header__list.closing {
     opacity: 0;
-    transform: translateY(-500px);
+    transform: translateY(-100%);
     pointer-events: none;
   }
 

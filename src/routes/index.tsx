@@ -13,7 +13,6 @@ import viteLogo from "../images/VITE.svg";
 import scssLogo from "../images/SCSS.svg";
 import {ThemeProvider} from "../context/ThemeContext";
 import {SkillComponent} from "@component/SkillComponent";
-import {CrtEffect} from "@component/CrtEffect";
 
 
 const icons = {
@@ -39,7 +38,6 @@ function Index() {
     return (
         <>
             <ThemeProvider>
-                <CrtEffect></CrtEffect>
                 <NavigationHeader></NavigationHeader>
                 <MainContent></MainContent>
                 <SkillComponent icons={icons} tools={tools}></SkillComponent>
