@@ -1,7 +1,7 @@
 import {createFileRoute} from '@tanstack/react-router'
 import {MainContent} from "@component/MainContent";
 import {NavigationHeader} from "@component/NavigationHeader";
-import "@style/main.scss"
+import "@style/main.sass"
 import javascriptLogo from "../images/JS.svg";
 import typescriptLogo from "../images/TS.svg";
 import pythonLogo from "../images/PY.svg";

@@ -1,5 +1,5 @@
 import React from "react";
-import "@style/component/SkillCard.scss"
+import "@style/component/SkillCard.sass"
 interface SkillCardProps {
     imgSrc: string;
     title: string;

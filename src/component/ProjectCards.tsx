@@ -2,7 +2,7 @@ import React from 'react';
 import {Swiper, SwiperSlide} from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/effect-cards';
-import '@style/component/ProjectCard.scss';
+import '@style/component/ProjectCard.sass';
 import {EffectCards} from 'swiper/modules';
 
 interface SwiperInfoProps {

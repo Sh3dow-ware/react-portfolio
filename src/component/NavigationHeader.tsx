@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "@tanstack/react-router";
-import "../style/component/Navigation.scss";
+import "@style/component/Navigation.sass";
 import { getThemeData } from "../utility/ThemeData";
 import { TiThMenu } from "react-icons/ti";
 

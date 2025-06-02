@@ -1,4 +1,4 @@
-import "../style/component/MainContent.scss";
+import "@style/component/MainContent.sass";
 import {TypeAnimation} from "react-type-animation"
 
 export const MainContent = () => {
