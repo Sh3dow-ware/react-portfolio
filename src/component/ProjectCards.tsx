@@ -18,6 +18,7 @@ export const ProjectCards = () => {
         0: "https://praktik-hifi-corner-med-react-azad-magnus-og-oliver.vercel.app",
         1: "https://praktik-din-m-gler-azad-magnus-oliver.onrender.com",
         2: "https://projekt-moviez-sh3dow-ware.onrender.com",
+        3: "https://cinema-ticket-movie-app-ac19c5c824a7.herokuapp.com/",
     }
 
     const indexSlide = (swiperInfo: SwiperInfoProps) => {
@@ -42,6 +43,7 @@ export const ProjectCards = () => {
                 <SwiperSlide>Hifi-Corner</SwiperSlide>
                 <SwiperSlide>Din maegler</SwiperSlide>
                 <SwiperSlide>ProjektMoviez</SwiperSlide>
+                <SwiperSlide>Cinema Ticket Movie</SwiperSlide>
             </Swiper>
                 <a className="swiper-link__project" target={"_blank"} href={slidesLinks[activeIndex]}>Show project</a>
             </div>
